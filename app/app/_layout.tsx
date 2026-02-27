@@ -1,4 +1,3 @@
-import React from 'react';
 import { ThemeProvider } from "@/hooks/useTheme";
 import { Stack } from "expo-router";
 
@@ -9,3 +8,4 @@ export default function RootLayout() {
     </ThemeProvider>
     )
 }
+

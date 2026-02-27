@@ -1,3 +1,4 @@
+import React from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, ReactNode, useContext, useEffect, useState } from "react";
 
@@ -90,22 +91,3 @@ const useTheme = () => {
 
 
 export default useTheme;
-
-
-
-*_layout
-// convex
-import { ConvexReactClient, ConvexProvider } from "convex/react";
-
-const convex = new ConvexReactClient(process.env.EXPO_PUBLIC_CONVEX_URL!, {
-  unsavedChangesWarning: false
-})
-
-
-
-
-
-
-
-
-

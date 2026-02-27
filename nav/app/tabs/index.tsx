@@ -1,5 +1,5 @@
+import React from 'react';
 import useTheme from "@/hooks/useTheme";
-import { Link } from "expo-router";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function Index() {
@@ -8,7 +8,6 @@ export default function Index() {
     <View style={styles.container}>
       <View style={styles.main}>
         <Text style={styles.texto}>HOME</Text>
-        <Link href={"/catalogo"}>SHOP</Link>
         <TouchableOpacity onPress={toggleDarkMode}>MUDA TEMA</TouchableOpacity>
       </View>
     </View>
